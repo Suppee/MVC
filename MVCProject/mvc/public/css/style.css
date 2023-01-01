@@ -1,0 +1,61 @@
+/**
+* A simple sample CSS file that shows how to load assets
+* from the views. This is imported in app/views/partials/head.
+*/
+
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+}
+
+.container {
+    width: 96vw;
+    max-width: 1000px;    
+    margin: 0 auto;
+    min-height: 90vh;
+    padding: 4%;
+}
+
+header, footer {
+    width: 100%;
+    background-color:black;
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+nav, nav a {
+    background-color: #4287f5;
+    color: white;
+    padding: 6px;
+}
+    nav a:hover {
+        background-color: #4263f5;
+    }
+
+footer {
+    text-align: center;
+}
+
+.userbox {
+    margin: auto;
+    margin-top: 2%;
+    padding: 5%;
+    height: 50%;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+}
+
+.profile-image {
+    float: left;
+    width: calc(33.333% - 2rem);
+    display: flex;
+    align-items: center;
+}
+
+    .profile-image img {
+        border-radius: 50%;
+    }

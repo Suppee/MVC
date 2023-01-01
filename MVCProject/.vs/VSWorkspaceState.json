@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\dbadmin",
+    "\\mvc",
+    "\\mvc\\app",
+    "\\mvc\\app\\controllers",
+    "\\mvc\\app\\core",
+    "\\mvc\\app\\models",
+    "\\mvc\\app\\services"
+  ],
+  "SelectedNode": "\\mvc\\app\\services\\DogService.php",
+  "PreviewInSolutionExplorer": false
+}
